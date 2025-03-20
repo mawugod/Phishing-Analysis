@@ -1,5 +1,5 @@
-# ProjectOne
-#Phishing Analysis
+# Phishing Analysis
+
 Source: https://challenges.malwarecube.com/#/c/074e4448-e8d7-4122-86f2-36a4d7b2a18b  
 Question: ![image](https://github.com/user-attachments/assets/1b7ae777-6107-499e-9173-9e4ac23e4a0a)
 
