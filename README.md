@@ -67,10 +67,15 @@ Sender Analysis:
 
 
 URL Analysis:
+The URLs obtained were originally in thier defang state. To get the fang state for clearitiy and readability, I used the cybersheff tool - URL: https://gchq.github.io/CyberChef/
+URLs: Converting it using the fang operator produced the URL as: 
+1. https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft.jpg
+2. https://0.232.205.92.host.secureserver.net/lclbluewin08812/
 
+All the URL was flagged as malicious when placed in the Virustotal engine: -by 1 and 8 security vendors respectively as seen in the image below.
+1. ![Uploading image.png…]()
 
-Attachment Analysis:
-
+2. ![Uploading image.png…]()
 
 
 Verdict
