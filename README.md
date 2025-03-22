@@ -5,8 +5,7 @@ Question: ![image](https://github.com/user-attachments/assets/1b7ae777-6107-499e
 
 
 
-Solution/ Answer
-Phishing Analysis Report:
+Procedure - Phishing Analysis Report:
 
 1. Command to Accessing the file in question: 
 ![image](https://github.com/user-attachments/assets/26dc0bd7-ceff-4253-aace-fc4530c4e431)
@@ -63,7 +62,10 @@ Description
 
 Artifact Analysis
 ======================================
+
 Sender Analysis:
+Sender claims to be from Microsoft but the email ID proves false. THe domain name is 'social.helwan.edu.eg' and iformation obtained from it is indicated in the image below:
+![image](https://github.com/user-attachments/assets/8883c5c1-31d7-4b86-8795-f7c83e60c97f)
 
 
 URL Analysis:
@@ -75,13 +77,13 @@ URLs: Converting it using the fang operator produced the URL as:
 All the URL was flagged as malicious when placed in the Virustotal engine: -by 1 and 8 security vendors respectively as seen in the image below.
 1. ![image](https://github.com/user-attachments/assets/a60b20ef-bffb-41fd-a05c-c3b6525a870a)
 
-2. ![Uploading image.png…]()
+2. ![image](https://github.com/user-attachments/assets/04101e01-8c25-449a-be29-759beb30f1a1)
+
 
 IP Analyss:
 ======================================
 10[.]152[.]26[.]146 -> This is a private IP address
 https://whois.domaintools.com/10.152.26.146
-![Uploading image.png…]()
 
 40[.]107[.]22[.]60
 https://whois.domaintools.com/40.107.22.60
