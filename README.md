@@ -50,17 +50,6 @@ hxxps[://]raw[.]githubusercontent[.]com/MalwareCube/SOC101/main/assets/01_Phishi
 hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/
 
 
-IP Analyss:
-======================================
-10[.]152[.]26[.]146 -> This is a private IP address
-![image](https://github.com/user-attachments/assets/f3693791-b57a-4560-9059-aa8abfc5d7e7)
-
-40[.]107[.]22[.]60
-https://whois.domaintools.com/40.107.22.60
-0[.]232[.]205[.]92
-
-
-
 
 Attachments
 ======================================
@@ -84,11 +73,22 @@ URLs: Converting it using the fang operator produced the URL as:
 2. https://0.232.205.92.host.secureserver.net/lclbluewin08812/
 
 All the URL was flagged as malicious when placed in the Virustotal engine: -by 1 and 8 security vendors respectively as seen in the image below.
-1. ![Uploading image.png…]()
+1. ![image](https://github.com/user-attachments/assets/a60b20ef-bffb-41fd-a05c-c3b6525a870a)
 
 2. ![Uploading image.png…]()
 
-IP Analysis:
+IP Analyss:
+======================================
+10[.]152[.]26[.]146 -> This is a private IP address
+https://whois.domaintools.com/10.152.26.146
+![Uploading image.png…]()
+
+40[.]107[.]22[.]60
+https://whois.domaintools.com/40.107.22.60
+
+0[.]232[.]205[.]92
+
+
 
 Verdict
 ======================================
