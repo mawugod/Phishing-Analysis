@@ -27,14 +27,19 @@ Headers
 Date: Tue, 31 Oct 2023 10:10:04 -0900
 Subject: Your account has been flagged for unusual activity
 
-To: dderringer@mighty-solutions.net
 From: social201511138@social.helwan.edu.eg
+To:   dderringer@mighty-solutions.net
 
-Reply-To: No reply to
+
+Reply-To: -
 Return-Path: social201511138@social.helwan.edu.eg
 
-Sender IP: 40.107.22.60
-Resolve Host:
+Sender IP: 
+![image](https://github.com/user-attachments/assets/83a30b9d-5827-4304-b309-1fb1cc13de98)
+
+Resolve Host: mail-am6eur05on2060.outbound.protection.outlook.com
+![image](https://github.com/user-attachments/assets/33c71829-6e1c-4a6f-8e0c-d137d70f2980)
+
 
 Message-ID: JMrByPl2c3HBo8SctKnJ5C5Gp64sPSSWk76p4sjQ@s6
 
@@ -43,6 +48,17 @@ URLs
 =======================================
 hxxps[://]raw[.]githubusercontent[.]com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft[.]jpg
 hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/
+
+
+IP Analyss:
+======================================
+10[.]152[.]26[.]146 -> This is a private IP address
+![image](https://github.com/user-attachments/assets/f3693791-b57a-4560-9059-aa8abfc5d7e7)
+
+40[.]107[.]22[.]60
+https://whois.domaintools.com/40.107.22.60
+0[.]232[.]205[.]92
+
 
 
 
@@ -72,6 +88,7 @@ All the URL was flagged as malicious when placed in the Virustotal engine: -by 1
 
 2. ![Uploading image.png…]()
 
+IP Analysis:
 
 Verdict
 ======================================
