@@ -53,9 +53,10 @@ A suspicious email was reported by Dana Derringer (dderringer@mighty-solutions.n
 | Message-ID | JMrByPl2c3HBo8SctKnJ5C5Gp64sPSSWk76p4sjQ@s6 |  
 
 2. Associated URLs
-+ Defang state  
-|Logo | Email content link |
-| ------------ | ------------ |
++ Defang state
+    
+| Logo | Email content link |
+|---------| --------- |
 | hxxps[://]raw[.]githubusercontent[.]com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft[.]jpg | hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/ |
 
 **2. Analysis of Metadata, URLs**
