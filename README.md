@@ -1,4 +1,23 @@
-# Phishing Analysis Report
+# Phishing Analysis 
+
+
+## Procedure
+**1. Command to Accessing the file in question** 
+<picture>![image](https://github.com/user-attachments/assets/26dc0bd7-ceff-4253-aace-fc4530c4e431) </picture>
+
+**2. Command to get the hash of the file to record its integrity check.**
+<picture>![image](https://github.com/user-attachments/assets/07faf62d-e99c-4d0d-930c-3c3ce85d4597)</picture>
+
+**3. Opening to read the content of the file in a virtual environment with Mozila Thunderbird**
+<picture>![image](https://github.com/user-attachments/assets/282acf76-dff9-4486-8317-a6da0f710bf8)</picture>
+<picture>![image](https://github.com/user-attachments/assets/de978603-2c70-4c8e-8d63-16850a545d59)</picture>
+
+**4. Using the 'eioc.py script to extract the various components of the email file** 
+<picture>![image](https://github.com/user-attachments/assets/2a2923b5-db5f-43c9-a02a-73a2ebf95e81)</picture>
+
+# 
+## Report
+
 **Incident ID:** #001-Phish-111  
 **Date:**        --/--/----
 ## 
@@ -12,30 +31,15 @@
 > <picture>![image](https://github.com/user-attachments/assets/2625168d-f29c-4582-b83f-756a89fb21d8) </picture>
 
 
-## Description
+## Executive Summary
 
-User Dana Derringer was sent a mail she claimed to be suspecious which warrants further investigation.
-The content of the email was for Dana to take an action with regards to an unusual activity on the account, on which her account is purported to be disabled and asked to reactivate by clicking on a link.
-Dana has forwarded the email to the security team for further investigation.
+A suspicious email was reported by Dana Derringer (dderringer@mighty-solutions.net) claiming her account was disabled. Email was forwarded to Comany's security team for investigation. Analysis confirms the email is a phishing attempt. Key findings include:
++ Sender impersonation: Content of email appears to be from "Microsoft" but doamin email is identified as social.helwan.edu.eg.
++ Malicious URLs: Attached email and image Links flagged by VirusTotal.
 
-## Procedure - Phishing Analysis Report:
+## Technical Analysis
 
-**1. Command to Accessing the file in question** 
-![image](https://github.com/user-attachments/assets/26dc0bd7-ceff-4253-aace-fc4530c4e431)
-
-**2. Command to get the hash of the file to record its integrity check.**
-![image](https://github.com/user-attachments/assets/07faf62d-e99c-4d0d-930c-3c3ce85d4597)
-
-**3. Opening to read the content of the file in a virtual environment with Mozila Thunderbird**
-![image](https://github.com/user-attachments/assets/282acf76-dff9-4486-8317-a6da0f710bf8)
-![image](https://github.com/user-attachments/assets/de978603-2c70-4c8e-8d63-16850a545d59)
-
-**4. Using the 'eioc.py script to extract the various components of the email file** 
-![image](https://github.com/user-attachments/assets/2a2923b5-db5f-43c9-a02a-73a2ebf95e81)
-
-**5. Checking various components/ parts of the email as below:**
-
-**Header**
+**1. Email Metadata**
 
 **<ins>Date:</ins>** Tue, 31 Oct 2023 10:10:04 -0900
 **<ins>Subject:</ins>** Your account has been flagged for unusual activity
