@@ -91,8 +91,8 @@ Email proves to be valid. It was checked from different sources as indicated in 
 | **Message ID**| `MrByPl2c3HBo8SctKnj5C5Gp64spSSWx76p4sJQ@s6` | Non-standard formatting (likely forged). |
 
 
-**<ins>IP and Reputation:</ins>**
-
++ IP and Reputation
+  
 10[.]152[.]26[.]146 -> This is a private IP address  
 https://whois.domaintools.com/10.152.26.146
 <picture>![image](https://github.com/user-attachments/assets/73b5bbff-20df-4437-83fe-fa3a0e2b23cb) </picture>
@@ -106,10 +106,23 @@ https://whois.domaintools.com/40.107.22.60
 
 ## Verdict
 
-Virus total has proven that the link associated with the email is a Phishing link. The attached image includes a URL which is also malicious as seen in the snapshot in the Analysis above.
-Per the information indicated in the analysis section, it can be said that the email is a phishing email.
+**Classification: Phishing Email (High Confidence)**
++ Indicators
+    + Use of defanged URLs to bypass detection
+    + Malicious links associated with image and in the content of the email as proved by the virustotal engine.
+    + Mismatched sender domain against claimed identity - Sender domain 'ocial.helwan.edu.eg' is not same as claimed 'Microsoft' identity.
 
-Defense Actions
+
+RecommedationDefense Actions
 ======================================
-Block access to the domain names of the link.
-Educate users to be aware of such phishing emails.
++ Block access to the domain names of the link.
++ Quarantine similar emails using sender domain social.helwan.edu.eg
++ Educate users to be aware of such phishing emails.
+
+## Appendix
++Tools Used:
+    +eioc.py - IOC extractions
+    VirusTotal (URL Reputation Checks)
+    DomainTools - whois lookup
+    Cyberchef - URLdeobsfucation
+    Debounce, Spokeo, Verifyemailaddress - Email reputation check
