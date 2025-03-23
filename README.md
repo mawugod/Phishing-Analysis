@@ -75,10 +75,11 @@ b. [8/90 flagged as malicious] site: https://www.virustotal.com/gui/url/6a4ea48b
 + Sender Email Analysis
    \
 Email proves to be valid. It was checked from different sources as indicated in the table below.
+
 |Source 1 | Source 2  | Source 3 |
 |---------| --------- | -------- |
 | https://debounce.io/| https://www.spokeo.com/ | https://www.verifyemailaddress.org/email-validation |
-|<picture>![image](https://github.com/user-attachments/assets/3eb72df2-046b-4c87-80d3-6974f0683dff) </picture> | <picture>![image](https://github.com/user-attachments/assets/38c5489d-edde-489b-afc6-df3a2ecb6e15)</picture> | <picture>![image](https://github.com/user-attachments/assets/d6fb8f53-0921-4045-99b1-ae422db02999) </picture> |
+| <picture>![image](https://github.com/user-attachments/assets/3eb72df2-046b-4c87-80d3-6974f0683dff) </picture> | <picture>![image](https://github.com/user-attachments/assets/38c5489d-edde-489b-afc6-df3a2ecb6e15)</picture> | <picture>![image](https://github.com/user-attachments/assets/d6fb8f53-0921-4045-99b1-ae422db02999) </picture> |
 
 + Metadata Analysis
     
