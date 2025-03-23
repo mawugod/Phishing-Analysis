@@ -1,15 +1,14 @@
-![image](https://github.com/user-attachments/assets/3016f15c-d28f-4709-9d74-208dca8f4a18)# Phishing Analysis- Static Analysis
+# Phishing Analysis- Static Analysis
 
-Source: https://challenges.malwarecube.com/#/c/074e4448-e8d7-4122-86f2-36a4d7b2a18b  
-Question: ![image](https://github.com/user-attachments/assets/1b7ae777-6107-499e-9173-9e4ac23e4a0a)
+**<ins>Source:</ins>**
+https://challenges.malwarecube.com/#/c/074e4448-e8d7-4122-86f2-36a4d7b2a18b  
+**<ins>Question:</ins>**
+![image](https://github.com/user-attachments/assets/1b7ae777-6107-499e-9173-9e4ac23e4a0a)
 
-
-
-## Procedure - Phishing Analysis Report:
-
-###Architecture
+### Architecture
 ![image](https://github.com/user-attachments/assets/2625168d-f29c-4582-b83f-756a89fb21d8)
 
+## Procedure - Phishing Analysis Report:
 
 **1. Command to Accessing the file in question** 
 ![image](https://github.com/user-attachments/assets/26dc0bd7-ceff-4253-aace-fc4530c4e431)
