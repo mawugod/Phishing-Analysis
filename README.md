@@ -32,14 +32,13 @@ Dana has forwarded the email to the security team for further investigation.
 
 **5. Checking various components/ parts of the email as below:**
 
-**<ins>Headers</ins>**
+**Headers**
 
-Date: Tue, 31 Oct 2023 10:10:04 -0900
-Subject: Your account has been flagged for unusual activity
+**<ins>Date:</ins>** Tue, 31 Oct 2023 10:10:04 -0900
+**<ins>Subject:</ins>** Your account has been flagged for unusual activity
 
-From: social201511138@social.helwan.edu.eg
-To:   dderringer@mighty-solutions.net
-
+**<ins>From:</ins>** social201511138@social.helwan.edu.eg  
+**<ins>To:</ins>**   dderringer@mighty-solutions.net
 
 **<ins>Reply-To:</ins>** -  
 **<ins>Return-Path:</ins>** social201511138@social.helwan.edu.eg
@@ -53,12 +52,9 @@ To:   dderringer@mighty-solutions.net
 
 **<ins>Message-ID:</ins>** JMrByPl2c3HBo8SctKnJ5C5Gp64sPSSWk76p4sjQ@s6
 
-
 **<ins>URLs</ins>**
-
 hxxps[://]raw[.]githubusercontent[.]com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft[.]jpg
 hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/
-
 
 
 **<ins>Attachments</ins>**
@@ -66,7 +62,6 @@ hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/
 No attachment
 
 ## Artifact Analysis
-
 
 **<ins>Sender Analysis:</ins>**
 Sender claims to be from Microsoft but the email ID proves false. THe domain name is 'social.helwan.edu.eg'. The information obtained on it is below:
@@ -77,7 +72,7 @@ https://whois.domaintools.com/helwan.edu.eg
 **<ins>URL Analysis:</ins>**
 The URLs obtained were originally in thier defang state. To get the fang state for clearitiy and readability, I used the cybersheff tool - URL: https://gchq.github.io/CyberChef/  
 
-URLs: Converting it using the fang operator produced the URL as: 
+**<ins>URLs: Converting it using the fang operator produced the URL as: </ins>**
 1. https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft.jpg
 2. https://0.232.205.92.host.secureserver.net/lclbluewin08812/  
 
