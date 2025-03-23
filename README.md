@@ -50,18 +50,35 @@ A suspicious email was reported by Dana Derringer (dderringer@mighty-solutions.n
 **<ins>Return-Path:</ins>** social201511138@social.helwan.edu.eg
 
 **<ins>Sender IP:</ins>**  
-![image](https://github.com/user-attachments/assets/83a30b9d-5827-4304-b309-1fb1cc13de98)
+<picture>![image](https://github.com/user-attachments/assets/83a30b9d-5827-4304-b309-1fb1cc13de98)</picture>
 
 **<ins>Resolve Host:<ins>** mail-am6eur05on2060.outbound.protection.outlook.com
-![image](https://github.com/user-attachments/assets/33c71829-6e1c-4a6f-8e0c-d137d70f2980)
-
+<picture>![image](https://github.com/user-attachments/assets/33c71829-6e1c-4a6f-8e0c-d137d70f2980)</picture>
 
 **<ins>Message-ID:</ins>** JMrByPl2c3HBo8SctKnJ5C5Gp64sPSSWk76p4sjQ@s6
 
 **<ins>URLs</ins>**
+URLs were in their defang state.
+
 hxxps[://]raw[.]githubusercontent[.]com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft[.]jpg
 hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/
 
+**2. Analysis of Metadata, URLs**
+
+# Email Metadata Analysis
+Email proved to be valid. It was checked from different sources as indicated in the table below.
+|Source 1 | Source 2  | Source 3 |
+|---------| --------- | -------- |
+| https://debounce.io/| https://www.spokeo.com/ | https://www.verifyemailaddress.org/email-validation |
+|<picture>![image](https://github.com/user-attachments/assets/3eb72df2-046b-4c87-80d3-6974f0683dff) </picture> | <picture>![image](https://github.com/user-attachments/assets/38c5489d-edde-489b-afc6-df3a2ecb6e15)</picture> | <picture>![image](https://github.com/user-attachments/assets/d6fb8f53-0921-4045-99b1-ae422db02999) </picture> |
+
+
+| Field        | Value                                       | Analysis                                |
+|--------------|---------------------------------------------|-----------------------------------------|
+| **From**     | `social201511138@social.helwan.edu.eg`       | Domain unrelated to Microsoft.          |
+| **Reply-To** | *(Empty)*                                   | No valid reply path (red flag).         |
+| **Sender IP**| `40.107.22.60` (`mail-am6eur05on2060.outbound.protection.outlook.com`) | Spoofed Microsoft infrastructure.      |
+| **Message ID**| `MrByPl2c3HBo8SctKnj5C5Gp64spSSWx76p4sJQ@s6` | Non-standard formatting (likely forged). |
 
 **<ins>Attachments</ins>**
 
