@@ -7,6 +7,10 @@ Question: ![image](https://github.com/user-attachments/assets/1b7ae777-6107-499e
 
 Procedure - Phishing Analysis Report:
 
+Architecture:
+![image](https://github.com/user-attachments/assets/2625168d-f29c-4582-b83f-756a89fb21d8)
+
+
 1. Command to Accessing the file in question: 
 ![image](https://github.com/user-attachments/assets/26dc0bd7-ceff-4253-aace-fc4530c4e431)
 
