@@ -120,9 +120,10 @@ RecommedationDefense Actions
 + Educate users to be aware of such phishing emails.
 
 ## Appendix
-+Tools Used:
-    +eioc.py - IOC extractions
-    +VirusTotal (URL Reputation Checks)
-    +DomainTools - whois lookup
-    +Cyberchef - URLdeobsfucation
-    +Debounce, Spokeo, Verifyemailaddress - Email reputation check
+
++ Tools Used
+    + eioc.py - IOC extractions
+    + VirusTotal (URL Reputation Checks)
+    + DomainTools - whois lookup
+    + Cyberchef - URLdeobsfucation
+    + Debounce, Spokeo, Verifyemailaddress - Email reputation check
