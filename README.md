@@ -122,7 +122,7 @@ RecommedationDefense Actions
 ## Appendix
 +Tools Used:
     +eioc.py - IOC extractions
-    VirusTotal (URL Reputation Checks)
-    DomainTools - whois lookup
-    Cyberchef - URLdeobsfucation
-    Debounce, Spokeo, Verifyemailaddress - Email reputation check
+    +VirusTotal (URL Reputation Checks)
+    +DomainTools - whois lookup
+    +Cyberchef - URLdeobsfucation
+    +Debounce, Spokeo, Verifyemailaddress - Email reputation check
