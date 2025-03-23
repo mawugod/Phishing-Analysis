@@ -71,7 +71,7 @@ a. [1/90 vendors flagged as malicious] site:     https://www.virustotal.com/gui/
    + Snapshot: ![image](https://github.com/user-attachments/assets/227ffb34-37b9-49a9-b327-17c6e86e4357)
 b. [8/90 flagged as malicious] site: https://www.virustotal.com/gui/url/6a4ea48b89905818a22b0dbfdd6c9402cfe321998a530f105f60d7d8d0fc62ef  
   + Snapshot: ![image](https://github.com/user-attachments/assets/04101e01-8c25-449a-be29-759beb30f1a1)
-\
+
 + Sender Email Analysis
    \
 Email proves to be valid. It was checked from different sources as indicated in the table below.
@@ -80,9 +80,8 @@ Email proves to be valid. It was checked from different sources as indicated in 
 | https://debounce.io/| https://www.spokeo.com/ | https://www.verifyemailaddress.org/email-validation |
 |<picture>![image](https://github.com/user-attachments/assets/3eb72df2-046b-4c87-80d3-6974f0683dff) </picture> | <picture>![image](https://github.com/user-attachments/assets/38c5489d-edde-489b-afc6-df3a2ecb6e15)</picture> | <picture>![image](https://github.com/user-attachments/assets/d6fb8f53-0921-4045-99b1-ae422db02999) </picture> |
 
-+ Metadata Aanalysis
-  \
-  
++ Metadata Analysis
+    
 | Field        | Value                                       | Analysis                                |
 |--------------|---------------------------------------------|-----------------------------------------|
 | **From**     | `social201511138@_social.helwan.edu.eg_` | Domain unrelated to Microsoft.\ https://whois.domaintools.com/helwan.edu.eg\ <picture>![image](https://github.com/user-attachments/assets/8883c5c1-31d7-4b86-8795-f7c83e60c97f </picture>  |
@@ -91,16 +90,16 @@ Email proves to be valid. It was checked from different sources as indicated in 
 | **Message ID**| `MrByPl2c3HBo8SctKnj5C5Gp64spSSWx76p4sJQ@s6` | Non-standard formatting (likely forged). |
 
 
-
-
-
-**<ins>IP Analysis:</ins>**
+**<ins>IP and Reputation:</ins>**
 
 10[.]152[.]26[.]146 -> This is a private IP address  
 https://whois.domaintools.com/10.152.26.146
+<picture>![image](https://github.com/user-attachments/assets/73b5bbff-20df-4437-83fe-fa3a0e2b23cb) </picture>
+
 
 40[.]107[.]22[.]60  
 https://whois.domaintools.com/40.107.22.60
+![image](https://github.com/user-attachments/assets/bfec40b1-fc4b-4e3e-9803-17bf84751877)
 
 0[.]232[.]205[.]92
 
