@@ -57,14 +57,17 @@ No attachment
 
 Description
 ======================================
-
+User Dana Derringer was sent a mail she claimed to be suspecious which warrants further investigation.
+The content of the email was for Dana to take an action with regards to an unusual activity on the account, on which her account is purported to be disabled and asked to reactivate by clicking on a link.
+Dana has forwarded the email to the security team for further investigation.
 
 
 Artifact Analysis
 ======================================
 
 Sender Analysis:
-Sender claims to be from Microsoft but the email ID proves false. THe domain name is 'social.helwan.edu.eg' and iformation obtained from it is indicated in the image below:
+Sender claims to be from Microsoft but the email ID proves false. THe domain name is 'social.helwan.edu.eg'. The information obtained on it is below:
+https://whois.domaintools.com/helwan.edu.eg
 ![image](https://github.com/user-attachments/assets/8883c5c1-31d7-4b86-8795-f7c83e60c97f)
 
 
@@ -75,13 +78,14 @@ URLs: Converting it using the fang operator produced the URL as:
 2. https://0.232.205.92.host.secureserver.net/lclbluewin08812/
 
 All the URL was flagged as malicious when placed in the Virustotal engine: -by 1 and 8 security vendors respectively as seen in the image below.
-1. ![image](https://github.com/user-attachments/assets/a60b20ef-bffb-41fd-a05c-c3b6525a870a)
+1. site:     https://www.virustotal.com/gui/url/a8f90df07430e714681833c6c1d45b68a58095b9540dc8dbd7e87b92cd8f0094
+   Snapshot: ![image](https://github.com/user-attachments/assets/227ffb34-37b9-49a9-b327-17c6e86e4357)
+2. site: https://www.virustotal.com/gui/url/6a4ea48b89905818a22b0dbfdd6c9402cfe321998a530f105f60d7d8d0fc62ef
+   Snapshot: ![image](https://github.com/user-attachments/assets/04101e01-8c25-449a-be29-759beb30f1a1)
 
-2. ![image](https://github.com/user-attachments/assets/04101e01-8c25-449a-be29-759beb30f1a1)
 
+IP Analysis:
 
-IP Analyss:
-======================================
 10[.]152[.]26[.]146 -> This is a private IP address
 https://whois.domaintools.com/10.152.26.146
 
@@ -94,9 +98,10 @@ https://whois.domaintools.com/40.107.22.60
 
 Verdict
 ======================================
-
-
+Virus total has proven that the link associated with the email is a Phishing link. The attached image includes a URL which is also malicious as seen in the snapshot in the Analysis above.
+Per the information indicated in the analysis section, it can be said that the email is a phishing email.
 
 Defense Actions
 ======================================
-
+Block access to the domain names of the link.
+Educate users to be aware of such phishing emails.
