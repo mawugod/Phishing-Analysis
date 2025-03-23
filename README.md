@@ -32,7 +32,7 @@ Dana has forwarded the email to the security team for further investigation.
 
 **5. Checking various components/ parts of the email as below:**
 
-**Headers**
+**Header**
 
 **<ins>Date:</ins>** Tue, 31 Oct 2023 10:10:04 -0900
 **<ins>Subject:</ins>** Your account has been flagged for unusual activity
@@ -77,23 +77,21 @@ The URLs obtained were originally in thier defang state. To get the fang state f
 2. https://0.232.205.92.host.secureserver.net/lclbluewin08812/  
 
 All the URL was flagged as malicious when placed in the Virustotal engine: -by 1 and 8 security vendors respectively as seen in the image below.
-1. site:     https://www.virustotal.com/gui/url/a8f90df07430e714681833c6c1d45b68a58095b9540dc8dbd7e87b92cd8f0094
+1. site:     https://www.virustotal.com/gui/url/a8f90df07430e714681833c6c1d45b68a58095b9540dc8dbd7e87b92cd8f0094  
    Snapshot: ![image](https://github.com/user-attachments/assets/227ffb34-37b9-49a9-b327-17c6e86e4357)
-2. site: https://www.virustotal.com/gui/url/6a4ea48b89905818a22b0dbfdd6c9402cfe321998a530f105f60d7d8d0fc62ef
+2. site: https://www.virustotal.com/gui/url/6a4ea48b89905818a22b0dbfdd6c9402cfe321998a530f105f60d7d8d0fc62ef  
    Snapshot: ![image](https://github.com/user-attachments/assets/04101e01-8c25-449a-be29-759beb30f1a1)
 
 
 **<ins>IP Analysis:</ins>**
 
-10[.]152[.]26[.]146 -> This is a private IP address
+10[.]152[.]26[.]146 -> This is a private IP address  
 https://whois.domaintools.com/10.152.26.146
 
-40[.]107[.]22[.]60
+40[.]107[.]22[.]60  
 https://whois.domaintools.com/40.107.22.60
 
 0[.]232[.]205[.]92
-
-
 
 ## Verdict
 
