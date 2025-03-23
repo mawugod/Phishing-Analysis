@@ -40,28 +40,22 @@ A suspicious email was reported by Dana Derringer (dderringer@mighty-solutions.n
 
 **1. Email Metadata**
 
-**<ins>Date:</ins>** Tue, 31 Oct 2023 10:10:04 -0900
-**<ins>Subject:</ins>** Your account has been flagged for unusual activity
+|Field | Value  | 
+|---------| --------- |
+| Date | Tue, 31 Oct 2023 10:10:04 -0900 |
+| Subject | Your account has been flagged for unusual activity | 
+| From | social201511138@social.helwan.edu.eg |
+| To | dderringer@mighty-solutions.net |
+| Reply-To |(Empty) |
+| Return-Path| social201511138@social.helwan.edu.eg |
+| Sender IP| <picture>![image](https://github.com/user-attachments/assets/83a30b9d-5827-4304-b309-1fb1cc13de98)</picture> |
+| Resolve Host| mail-am6eur05on2060.outbound.protection.outlook.com\ <picture>![image](https://github.com/user-attachments/assets/33c71829-6e1c-4a6f-8e0c-d137d70f2980)</picture> |
+| Message-ID | JMrByPl2c3HBo8SctKnJ5C5Gp64sPSSWk76p4sjQ@s6 |  
 
-**<ins>From:</ins>** social201511138@social.helwan.edu.eg  
-**<ins>To:</ins>**   dderringer@mighty-solutions.net
-
-**<ins>Reply-To:</ins>** -  
-**<ins>Return-Path:</ins>** social201511138@social.helwan.edu.eg
-
-**<ins>Sender IP:</ins>**  
-<picture>![image](https://github.com/user-attachments/assets/83a30b9d-5827-4304-b309-1fb1cc13de98)</picture>
-
-**<ins>Resolve Host:<ins>** mail-am6eur05on2060.outbound.protection.outlook.com
-<picture>![image](https://github.com/user-attachments/assets/33c71829-6e1c-4a6f-8e0c-d137d70f2980)</picture>
-
-**<ins>Message-ID:</ins>** JMrByPl2c3HBo8SctKnJ5C5Gp64sPSSWk76p4sjQ@s6
-
-**<ins>URLs</ins>**
-URLs were in their defang state.
-
-hxxps[://]raw[.]githubusercontent[.]com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft[.]jpg
-hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/
+2. Associated URLs
++ Defang state
+|Logo | Email content link |
+| hxxps[://]raw[.]githubusercontent[.]com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft[.]jpg | hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/ |
 
 **2. Analysis of Metadata, URLs**
 
