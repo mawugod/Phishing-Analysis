@@ -38,7 +38,7 @@ A suspicious email was reported by Dana Derringer (dderringer@mighty-solutions.n
 
 ## Technical Analysis
 
-**1. Email Metadata**
+a. Email Metadata
 
 |Field | Value  | 
 |---------| --------- |
@@ -52,54 +52,46 @@ A suspicious email was reported by Dana Derringer (dderringer@mighty-solutions.n
 | Resolve Host| mail-am6eur05on2060.outbound.protection.outlook.com\ <picture>![image](https://github.com/user-attachments/assets/33c71829-6e1c-4a6f-8e0c-d137d70f2980)</picture> |
 | Message-ID | JMrByPl2c3HBo8SctKnJ5C5Gp64sPSSWk76p4sjQ@s6 |  
 
-2. Associated URLs
-+ Defang state
+b. Associated URLs
++  Defang - Orignial state
     
 | Logo | Email content link |
 |---------| --------- |
 | hxxps[://]raw[.]githubusercontent[.]com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft[.]jpg | hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/ |
 
-**2. Analysis of Metadata, URLs**
++ Deobsfuscate State
+    
+Using the Cyberchef tool: https://gchq.github.io/CyberChef/ 
+  | Logo | Email content link | 
+|---------| --------- |
+|[ hxxps[://]raw[.]githubusercontent[.]com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft[.]jpg](https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft.jpg) | https://0.232.205.92.host.secureserver.net/lclbluewin08812/ |
 
-# Email Metadata Analysis
-Email proved to be valid. It was checked from different sources as indicated in the table below.
+URL were flagged as malicious in the Virustotal engine:  
+a. [1/90 vendors flagged as malicious] site:     https://www.virustotal.com/gui/url/a8f90df07430e714681833c6c1d45b68a58095b9540dc8dbd7e87b92cd8f0094  
+   + Snapshot: ![image](https://github.com/user-attachments/assets/227ffb34-37b9-49a9-b327-17c6e86e4357)
+b. [8/90 flagged as malicious] site: https://www.virustotal.com/gui/url/6a4ea48b89905818a22b0dbfdd6c9402cfe321998a530f105f60d7d8d0fc62ef  
+  + Snapshot: ![image](https://github.com/user-attachments/assets/04101e01-8c25-449a-be29-759beb30f1a1)
+\
++ Sender Email Analysis
+   \
+Email proves to be valid. It was checked from different sources as indicated in the table below.
 |Source 1 | Source 2  | Source 3 |
 |---------| --------- | -------- |
 | https://debounce.io/| https://www.spokeo.com/ | https://www.verifyemailaddress.org/email-validation |
 |<picture>![image](https://github.com/user-attachments/assets/3eb72df2-046b-4c87-80d3-6974f0683dff) </picture> | <picture>![image](https://github.com/user-attachments/assets/38c5489d-edde-489b-afc6-df3a2ecb6e15)</picture> | <picture>![image](https://github.com/user-attachments/assets/d6fb8f53-0921-4045-99b1-ae422db02999) </picture> |
 
-
++ Metadata Aanalysis
+  \
+  
 | Field        | Value                                       | Analysis                                |
 |--------------|---------------------------------------------|-----------------------------------------|
-| **From**     | `social201511138@social.helwan.edu.eg`       | Domain unrelated to Microsoft.          |
-| **Reply-To** | *(Empty)*                                   | No valid reply path (red flag).         |
+| **From**     | `social201511138@_social.helwan.edu.eg_` | Domain unrelated to Microsoft.\ https://whois.domaintools.com/helwan.edu.eg\ <picture>![image](https://github.com/user-attachments/assets/8883c5c1-31d7-4b86-8795-f7c83e60c97f </picture>  |
+| **Reply-To** | *(Empty)*                                   |        |
 | **Sender IP**| `40.107.22.60` (`mail-am6eur05on2060.outbound.protection.outlook.com`) | Spoofed Microsoft infrastructure.      |
 | **Message ID**| `MrByPl2c3HBo8SctKnj5C5Gp64spSSWx76p4sJQ@s6` | Non-standard formatting (likely forged). |
 
-**<ins>Attachments</ins>**
-
-No attachment
-
-## Artifact Analysis
-
-**<ins>Sender Analysis:</ins>**
-Sender claims to be from Microsoft but the email ID proves false. THe domain name is 'social.helwan.edu.eg'. The information obtained on it is below:
-https://whois.domaintools.com/helwan.edu.eg
-![image](https://github.com/user-attachments/assets/8883c5c1-31d7-4b86-8795-f7c83e60c97f)
 
 
-**<ins>URL Analysis:</ins>**
-The URLs obtained were originally in thier defang state. To get the fang state for clearitiy and readability, I used the cybersheff tool - URL: https://gchq.github.io/CyberChef/  
-
-**<ins>URLs: Converting it using the fang operator produced the URL as: </ins>**
-1. https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft.jpg
-2. https://0.232.205.92.host.secureserver.net/lclbluewin08812/  
-
-All the URL was flagged as malicious when placed in the Virustotal engine: -by 1 and 8 security vendors respectively as seen in the image below.
-1. site:     https://www.virustotal.com/gui/url/a8f90df07430e714681833c6c1d45b68a58095b9540dc8dbd7e87b92cd8f0094  
-   Snapshot: ![image](https://github.com/user-attachments/assets/227ffb34-37b9-49a9-b327-17c6e86e4357)
-2. site: https://www.virustotal.com/gui/url/6a4ea48b89905818a22b0dbfdd6c9402cfe321998a530f105f60d7d8d0fc62ef  
-   Snapshot: ![image](https://github.com/user-attachments/assets/04101e01-8c25-449a-be29-759beb30f1a1)
 
 
 **<ins>IP Analysis:</ins>**
