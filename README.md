@@ -8,7 +8,7 @@
 > ### Architecture
 > <picture>![image](https://github.com/user-attachments/assets/2625168d-f29c-4582-b83f-756a89fb21d8) </picture>
 
-## Procedure
+## Initial Procedure
 **1. Command to Accessing the file in question** 
 <picture>![image](https://github.com/user-attachments/assets/26dc0bd7-ceff-4253-aace-fc4530c4e431) </picture>
 
@@ -19,11 +19,11 @@
 <picture>![image](https://github.com/user-attachments/assets/282acf76-dff9-4486-8317-a6da0f710bf8)</picture>
 <picture>![image](https://github.com/user-attachments/assets/de978603-2c70-4c8e-8d63-16850a545d59)</picture>
 
-**4. Using the 'eioc.py script to extract the various components of the email file** 
+**4. Using the 'eioc.py' script to extract the various components of the email file** 
 <picture>![image](https://github.com/user-attachments/assets/2a2923b5-db5f-43c9-a02a-73a2ebf95e81)</picture>
 
 # 
-## Report
+# Phishing Report by ----- (SOC Analyst at Mighty Solutions)
 
 **Incident ID:** #001-Phish-111  
 **Date:**        --/--/----
@@ -32,9 +32,10 @@
 
 ## Executive Summary
 
-A suspicious email was reported by Dana Derringer (dderringer@mighty-solutions.net) claiming her account was disabled. Email was forwarded to Comany's security team for investigation. Analysis confirms the email is a phishing attempt. Key findings include:
-+ Sender impersonation: Content of email appears to be from "Microsoft" but doamin email is identified as social.helwan.edu.eg.
-+ Malicious URLs: Attached email and image Links flagged by VirusTotal.
+A suspicious email was reported by Dana Derringer (dderringer@mighty-solutions.net) claiming her account was disabled. Email was forwarded to Company's security team for investigation. Analysis confirms the email is a phishing attempt.  
+Key findings include:
++ **_Sender impersonation_** : Content of email appears to be from "Microsoft" but domain of the email is identified as social.helwan.edu.eg.
++ **_Malicious URLs_** : Attached email and image Links flagged by VirusTotal.
 
 ## Technical Analysis
 
@@ -49,9 +50,9 @@ a. Email Metadata
 | Reply-To |(Empty) |
 | Return-Path| social201511138@social.helwan.edu.eg |
 | Sender IP| <picture>![image](https://github.com/user-attachments/assets/83a30b9d-5827-4304-b309-1fb1cc13de98)</picture> |
-| Resolve Host| mail-am6eur05on2060.outbound.protection.outlook.com\ <picture>![image](https://github.com/user-attachments/assets/33c71829-6e1c-4a6f-8e0c-d137d70f2980)</picture> |
+| Resolve Host| mail-am6eur05on2060.outbound.protection.outlook.com \ <picture>![image](https://github.com/user-attachments/assets/33c71829-6e1c-4a6f-8e0c-d137d70f2980)</picture> |
 | Message-ID | JMrByPl2c3HBo8SctKnJ5C5Gp64sPSSWk76p4sjQ@s6 |  
-
+##
 b. Associated URLs
 +  Defang - Orignial state
     
