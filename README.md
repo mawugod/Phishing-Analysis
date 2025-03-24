@@ -45,7 +45,7 @@ a. Email Metadata
 |---------| --------- |
 | Date | Tue, 31 Oct 2023 10:10:04 -0900 |
 | Subject | Your account has been flagged for unusual activity | 
-| From | social201511138@social.helwan.edu.eg |
+| From | Outlook Support Team; social201511138@social.helwan.edu.eg |
 | To | dderringer@mighty-solutions.net |
 | Reply-To |(Empty) |
 | Return-Path| social201511138@social.helwan.edu.eg |
@@ -112,7 +112,7 @@ https://whois.domaintools.com/40.107.22.60
 + Indicators
     + Use of defanged URLs to bypass detection
     + Malicious links associated with image and in the content of the email as proved by the virustotal engine.
-    + Mismatched sender domain against claimed identity - Sender domain 'ocial.helwan.edu.eg' is not same as claimed 'Microsoft' identity.
+    + Mismatched sender domain against claimed identity - Sender domain 'social.helwan.edu.eg' is not same as claimed 'Outlook Support Team' identity.
 
 
 RecommedationDefense Actions
