@@ -23,7 +23,7 @@
 <picture>![image](https://github.com/user-attachments/assets/2a2923b5-db5f-43c9-a02a-73a2ebf95e81)</picture>
 
 # 
-# Phishing Report by ----- (SOC Analyst at Mighty Solutions)
+# Phishing Report by ____ (SOC Analyst at Mighty Solutions)
 
 **Incident ID:** #001-Phish-111  
 **Date:**        --/--/----
@@ -68,8 +68,9 @@ Using the Cyberchef tool: https://gchq.github.io/CyberChef/
 |[ hxxps[://]raw[.]githubusercontent[.]com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft[.]jpg](https://raw.githubusercontent.com/MalwareCube/SOC101/main/assets/01_Phishing_Analysis/microsoft.jpg) | https://0.232.205.92.host.secureserver.net/lclbluewin08812/ |
 
 URL were flagged as malicious in the Virustotal engine:  
-a. [1/90 vendors flagged as malicious] site:     https://www.virustotal.com/gui/url/a8f90df07430e714681833c6c1d45b68a58095b9540dc8dbd7e87b92cd8f0094  
-   + Snapshot: ![image](https://github.com/user-attachments/assets/227ffb34-37b9-49a9-b327-17c6e86e4357)
+a. [1/90 vendors flagged as malicious] link: https://www.virustotal.com/gui/url/a8f90df07430e714681833c6c1d45b68a58095b9540dc8dbd7e87b92cd8f0094  
+   + Snapshot: ![image](https://github.com/user-attachments/assets/227ffb34-37b9-49a9-b327-17c6e86e4357) 
+\
 b. [8/90 flagged as malicious] site: https://www.virustotal.com/gui/url/6a4ea48b89905818a22b0dbfdd6c9402cfe321998a530f105f60d7d8d0fc62ef  
   + Snapshot: ![image](https://github.com/user-attachments/assets/04101e01-8c25-449a-be29-759beb30f1a1)
 
@@ -86,7 +87,7 @@ Email proves to be valid. It was checked from different sources as indicated in 
     
 | Field        | Value                                       | Analysis                                |
 |--------------|---------------------------------------------|-----------------------------------------|
-| **From**     | `social201511138@_social.helwan.edu.eg_` | Domain unrelated to Microsoft.\ https://whois.domaintools.com/helwan.edu.eg\ <picture>![image](https://github.com/user-attachments/assets/8883c5c1-31d7-4b86-8795-f7c83e60c97f </picture>  |
+| **From**     | `social201511138@_social.helwan.edu.eg_` | Domain unrelated to Microsoft.  https://whois.domaintools.com/helwan.edu.eg\ <picture>![image](https://github.com/user-attachments/assets/8883c5c1-31d7-4b86-8795-f7c83e60c97f </picture>  |
 | **Reply-To** | *(Empty)*                                   |        |
 | **Sender IP**| `40.107.22.60` (`mail-am6eur05on2060.outbound.protection.outlook.com`) | Spoofed Microsoft infrastructure.      |
 | **Message ID**| `MrByPl2c3HBo8SctKnj5C5Gp64spSSWx76p4sJQ@s6` | Non-standard formatting (likely forged). |
